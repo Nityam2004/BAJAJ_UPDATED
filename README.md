@@ -44,16 +44,19 @@ BAJAJ_UPDATED/
 ```bash
 git clone https://github.com/Nityam2004/BAJAJ_UPDATED.git
 cd BAJAJ_UPDATED
-2. Create and activate a virtual environment:
-bash
+```
+---
+
+### 2. Create and activate a virtual environment:
+```bash
 Copy code
 python -m venv venv
 # Activate:
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-3. Install dependencies:
-bash
-Copy code
+```
+### 3. Install dependencies:
+
 pip install -r requirements.txt
 🛠️ Tech Stack
 Python 3.8+
