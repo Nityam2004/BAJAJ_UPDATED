@@ -38,58 +38,53 @@ BAJAJ_UPDATED/
 ```
 ---
 
-## Installation
+## ⚡ Installation
 
-# Clone the repository:
-
+### 1. Clone the repository:
+```bash
 git clone https://github.com/Nityam2004/BAJAJ_UPDATED.git
 cd BAJAJ_UPDATED
-
-
-# Create and activate a virtual environment:
-
+2. Create and activate a virtual environment:
+bash
+Copy code
 python -m venv venv
+# Activate:
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-
-
-# Install dependencies:
-
+3. Install dependencies:
+bash
+Copy code
 pip install -r requirements.txt
+🛠️ Tech Stack
+Python 3.8+
 
-##🛠️ Tech Stack
+pandas / numpy – For data handling
 
--Python 3.8+
+dotenv – Environment variable management
 
--pandas / numpy – For data handling
+logging – For structured log tracking
 
--dotenv – Environment variable management
+scikit-learn / ML libraries (optional, extendable)
 
--logging – For structured log tracking
+📈 Future Improvements
+✅ Add unit tests with pytest
 
-scikit-learn / ML libs (optional, extendable)
+✅ Build API layer using FastAPI/Flask
 
-##📈 Future Improvements
+✅ Containerize with Docker
 
--Add unit tests with pytest
+✅ Automate workflows with GitHub Actions
 
--Build API layer using FastAPI/Flask
+🤝 Contributing
+Fork the repository
 
--Containerize with Docker
+Create a new branch (feature-xyz)
 
--Automate workflows with GitHub Actions
+Commit your changes
 
-##🤝 Contributing
+Push to your branch
 
--Fork the repo
+Open a Pull Request 🚀
 
--Create a new branch (feature-xyz)
-
--Commit your changes
-
--Push and open a PR 🚀
-
-##📜 License
-
+📜 License
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
-
