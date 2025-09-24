@@ -36,6 +36,8 @@ BAJAJ_UPDATED/
 │
 └── logs/               # Logs generated during execution
 
+---
+
 ## Installation
 
 # Clone the repository:
