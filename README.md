@@ -56,7 +56,7 @@ source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
 ```
 ### 3. Install dependencies:
-
+```bash
 pip install -r requirements.txt
 🛠️ Tech Stack
 Python 3.8+
@@ -68,8 +68,9 @@ dotenv – Environment variable management
 logging – For structured log tracking
 
 scikit-learn / ML libraries (optional, extendable)
+```
 
-📈 Future Improvements
+### 📈 Future Improvements
 ✅ Add unit tests with pytest
 
 ✅ Build API layer using FastAPI/Flask
@@ -78,7 +79,7 @@ scikit-learn / ML libraries (optional, extendable)
 
 ✅ Automate workflows with GitHub Actions
 
-🤝 Contributing
+### 🤝 Contributing
 Fork the repository
 
 Create a new branch (feature-xyz)
@@ -89,5 +90,5 @@ Push to your branch
 
 Open a Pull Request 🚀
 
-📜 License
+###📜 License
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
