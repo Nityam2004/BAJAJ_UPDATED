@@ -35,7 +35,7 @@ BAJAJ_UPDATED/
 │   └── analysis.py     # Analysis/ML scripts
 │
 └── logs/               # Logs generated during execution
-
+```
 ---
 
 ## Installation
